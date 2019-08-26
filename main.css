@@ -153,14 +153,16 @@ li a:hover {
 .section-flex {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-wrap: wrap;
+    align-content: space-between;
 }
 
 .card {
     /* Add shadows to create the "card" effect */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
+    max-width: 30%;
 }
 
 /* On mouse-over, add a deeper shadow */
@@ -171,4 +173,9 @@ li a:hover {
 /* Add some padding inside the card container */
 .container {
     padding: 2px 16px;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
 }
