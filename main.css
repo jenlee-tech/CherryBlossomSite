@@ -16,7 +16,7 @@ html {
 
 #nav {
     overflow: hidden;
-    background-color: #4C565E;
+    background-color: #8D8B87;
     position: fixed;
     /* Set the navbar to fixed position */
     right: 0;
@@ -38,7 +38,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #4C565E;
+    background-color: #8D8B87;
 
 
 }
@@ -121,14 +121,13 @@ li a:hover {
     top: 50%;
     width: 100%;
     text-align: center;
-    color: #000;
     font-size: 27px;
     letter-spacing: 8px;
     text-transform: uppercase;
 }
 
 .ptext .border {
-    background-color: #111;
+    background-color: #8D8B87;
     color: #fff;
     padding: 20px;
 }
