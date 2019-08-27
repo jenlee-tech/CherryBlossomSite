@@ -178,3 +178,35 @@ li a:hover {
     max-width: 100%;
     height: auto;
 }
+
+
+/*styling for 2 columns*/
+.column2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+
+.column {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    max-width: 40%;
+    padding: 5%;
+    text-align: center;
+
+}
+
+.column img {
+    max-width: 100%;
+    height: auto;
+
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
