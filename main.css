@@ -210,8 +210,8 @@ li a:hover {
 /*button styling*/
 div button {
     position: absolute;
-    right: 5%;
-    bottom: 0;
+    right: 3%;
+    bottom: 2%;
     background: transparent;
     display: block;
 }
