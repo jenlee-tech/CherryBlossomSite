@@ -34,12 +34,13 @@ html {
 
 
 ul {
-    display: inline-block;
+    display: inline-flex;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #8D8B87;
+
 
 
 }
@@ -58,8 +59,8 @@ li a {
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-    background-color: pink;
-    text-decoration-color: black;
+    background-color: #C0C0C0;
+
 }
 
 
