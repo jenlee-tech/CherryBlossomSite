@@ -214,11 +214,22 @@ div button {
     bottom: 2%;
     background: transparent;
     display: block;
+    cursor: pointer;
 }
 
 
 
 
+#myBtn:hover {
+    background-color: #555;
+    /* Add a dark-grey background on hover */
+}
+
+
+
+
+
+/*media queries*/
 @media screen and (max-width: 600px) {
     .column {
         width: 100%;
