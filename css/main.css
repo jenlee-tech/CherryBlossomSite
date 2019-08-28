@@ -228,6 +228,32 @@ div button {
 }
 
 
+/*styling for form*/
+input[type=text],
+select,
+textarea {
+    width: 75%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 20px;
+    resize: vertical;
+}
+
+.container2 {
+    border-radius: 10px;
+    background-color: #d4ddb3;
+    padding: 10px;
+    color: black;
+}
+
+textarea {
+    padding-bottom: 0%;
+}
+
+
 
 
 
