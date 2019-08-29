@@ -250,7 +250,8 @@ textarea {
 }
 
 textarea {
-    padding-bottom: 0%;
+    margin-bottom: 0%;
+    margin-left: 2%;
 }
 
 
