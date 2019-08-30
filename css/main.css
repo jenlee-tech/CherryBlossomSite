@@ -2,7 +2,7 @@ body,
 html {
     height: 100%;
     font-size: 16px;
-    font-family: "Lato", sans-serif;
+    font-family: "Avantegarde", sans-serif;
     font-weight: 400;
     line-height: 1.8em;
     color: #666;
@@ -57,6 +57,7 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
     font-size: x-large;
+    letter-spacing: 2px;
 }
 
 /* Change the link color to #111 (black) on hover */
@@ -239,7 +240,6 @@ div button {
 
 /*styling for form*/
 input[type=text],
-select,
 textarea {
     width: 75%;
     padding: 15px;
@@ -258,9 +258,13 @@ textarea {
     color: black;
 }
 
+
 textarea {
-    margin-bottom: 0%;
-    margin-left: 2%;
+    margin-left: 1%;
+}
+
+.messagestyle * {
+    vertical-align: middle;
 }
 
 
